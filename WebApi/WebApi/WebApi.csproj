@@ -1,13 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<InvariantGlobalization>true</InvariantGlobalization>
 		<UserSecretsId>7013d1f3-e0b7-49a5-baac-9bd91de25334</UserSecretsId>
 		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-		<ContainerImageName>web-api</ContainerImageName>
+		<ContainerRepository>web-api</ContainerRepository>
 		<ContainerImageTags>latest</ContainerImageTags>
 		<PublishProfile>DefaultContainer</PublishProfile>
 		<RuntimeIdentifier>linux-x64</RuntimeIdentifier>
